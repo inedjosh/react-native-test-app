@@ -9,7 +9,17 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0F172A"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#0F172A",
+      "barStyle": "light-content",
+      "translucent": false
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "cjs"
+      ]
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,7 +34,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.fleet.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
